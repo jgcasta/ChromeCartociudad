@@ -1,0 +1,19 @@
+{
+  "name": "Cartociudad IGN",
+  "version": "1.0",
+  "description": "Permite utilizar Cartociudad del Instituo Geografico Nacional (IGN)",
+  "browser_action": {
+    "default_icon": "icon.png",
+	"default_title": "Cartociudad IGN",
+    "popup": "popup.html"
+  },
+    "icons": {
+    "128": "icon.png"
+  },
+  "permissions": [
+    "http://www.cartociudad.es/",
+	"http://labs.metacarta.com/",
+	"http://www.idee.es/",
+	"http://ovc.catastro.meh.es/"
+  ]
+}
