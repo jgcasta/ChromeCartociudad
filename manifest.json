@@ -1,6 +1,7 @@
 {
+  "manifest_version": 2,
   "name": "Cartociudad IGN",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Permite utilizar Cartociudad del Instituo Geografico Nacional (IGN)",
   "browser_action": {
     "default_icon": "icon.png",
