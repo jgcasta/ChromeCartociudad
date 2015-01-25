@@ -1,7 +1,6 @@
 ChromeCartociudad
 =================
 Autor: José Gómez Castaño
-       www.iderail.es
 
 Permite utilizar Cartociudad del Instituo Geografico Nacional (IGN)
 
