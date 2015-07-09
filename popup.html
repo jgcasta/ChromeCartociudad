@@ -20,7 +20,6 @@
                   cartovisor.activateLayerSwitcherControl(true);
                   var map = cartovisor.getOpenLayersMap();
                   map.projection = 'EPSG:4326';
-
 				  var pnoa = new OpenLayers.Layer.WMS("PNOA",
                                                       "http://www.idee.es/wms/PNOA/PNOA",
                                                       {layers: 'pnoa'}
@@ -33,7 +32,7 @@
 				  var catastro = new OpenLayers.Layer.WMS("Catastro",
                                                       "http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx",
                                                       {layers: 'ELEMLIN,TEXTOS,LIMITES,EJES,TXTMASA,MASA,TXTPARCELA,PARCELA,TXTSUBPARCE,SUBPARCE,TXTCONSTRU,CONSTRU,Catastro'}
-													  );													  
+       							  );													  
 
 				  map.addLayer(pnoa);
 				  map.addLayer(base);
